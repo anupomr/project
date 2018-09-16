@@ -51,4 +51,9 @@ public class Professor {
 		this.lastName = lastName;
 	}
 	
+	// test
+	public void toString() {
+		
+	}
+	
 }
