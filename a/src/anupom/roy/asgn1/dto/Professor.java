@@ -50,18 +50,5 @@ public class Professor {
 		}
 		this.lastName = lastName;
 	}
-	public boolean equals( Professor professor) {
-		if(this.equals(professor)) {
-			return true;
-		}
-		return false;
-	}
-
-	@Override
-	public String toString() {
-		return  (firstName != null ?  firstName + ", " : "")
-				+ (middleName != null ? middleName + ", " : "")
-				+ (lastName != null ? lastName : "");
-	}
-
+	
 }
