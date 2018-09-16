@@ -51,9 +51,9 @@ public class Professor {
 		this.lastName = lastName;
 	}
 	
-	// test
-	public void toString() {
-		
+	@Override
+	public String toString() {
+		return "Professor [firstName=" + firstName + ", middleName=" + middleName + ", lastName=" + lastName + "]";
 	}
 	
 }
